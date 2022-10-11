@@ -15,11 +15,9 @@ export default function Home({ results }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      
       <Nav />
-
       <Results results={results}/>
-
+    
     </div>
   )
 }
